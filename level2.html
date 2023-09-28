@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Explora</title>
+     
+         <link rel="stylesheet" href="../css/bootstrap.min.css">
+   
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oxanium&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+
+
+
+<link rel="stylesheet" href="../css/stustyle.css">
+    <link rel="stylesheet" href="../css/game.css">
+</head>
+<body>
+    
+        <h3 class="navbar-brand col-sm-3 col-md-2 mr-0">FLEXBOX EXPLORA</h3>
+        
+        <a class="btn btn-danger" style="float: right;" href="index.html">Back</a>
+  
+    <link rel="stylesheet" href="../css/game.css">
+</head>
+<body>
+<div class="app">
+    <section id="instructions">
+        
+        <p>Now use <span class="help"> align-items</span> to help all the fishes get to the bottom of the pond. This CSS property aligns items vertically and accepts the following values:
+        <ul>
+            <li><span class="help">flex-start</span> Items align to the top of the container.</li> <br>
+            <li><span class="help">flex-end</span>: Items align to the bottom of the container.</li><br>
+            <li><span class="help">center</span>: Items align at the vertical center of the container.</li><br>
+            <li><span class="help">baseline</span>: Items display at the baseline of the container.</li><br>
+            <li><span class="help">stretch</span>: Items are stretched to fit the container.</li><br>
+        </ul></p>
+        <div class="editor">
+            <div class="line-numbers">1<br>2<br>3<br>4<br>5<br>6<br>7<br>8<br>9<br>10</div>
+            <pre>#pond {
+   display: flex;</pre>
+            <textarea></textarea>
+            <pre>}</pre>
+            <button name="next" id="next" class="next">Run</button><br/><br/>  
+        </div>
+    </section>
+    <section id="pond">
+        <div id="forefront">
+            <div class="fish-container">
+                <div class="fish green animated pulse infinite"></div>
+            </div>
+           
+            <div class="fish-container">
+                <div class="fish red animated pulse infinite"></div>
+            </div>
+         
+            <div class="fish-container">
+                <div class="fish yellow animated pulse infinite"></div>
+            </div>
+           
+        </div>
+        <div id="board" style="align-items: flex-end;">
+            <div class="food-container" >
+                <div class="food green" style="transform: scale(0.88) rotate(322deg)"></div>
+            </div>
+           
+            <div class="food-container">
+                <div class="food red" style="transform: scale(0.82) rotate(221deg)"></div>
+            </div>
+          
+            <div class="food-container">
+                <div class="food yellow" style="transform: scale(0.89) rotate(269deg)"></div>
+            </div>
+         
+           </div>
+    </section>
+</div>
+
+    <script src="../js/app.js"></script>
+</body>
+</html>

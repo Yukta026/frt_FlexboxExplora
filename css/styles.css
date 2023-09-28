@@ -1,0 +1,345 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@600&family=Source+Code+Pro:wght@200;300;400;500&family=Ubuntu:wght@700&display=swap');
+body{
+    
+    background-color: #0077B6;
+    color: rgba(255,255,255,0.8);
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-transform: uppercase;
+    font-size: 28px;
+    font-family: 'Fredoka', sans-serif;
+}
+
+p{
+    font-family: 'PT Sans', sans-serif;
+}
+
+.help{
+    font-family: 'Source Code Pro', monospace;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-bottom: rgba(255, 255, 255, 0.8) solid 1px;
+}
+
+.app{
+    display: flex;
+}
+#instructions{
+    padding: 30px;
+    width: 50%;
+}
+
+.editor{
+    position: relative;
+    background-color: #FFA500;
+    height: 260px;
+    padding: 10px 10px 10px 40px;
+    border-radius: 4px;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 16px;
+    line-height: 1.5;
+    color: rgb(119,119,119);
+    overflow: hidden;
+}
+
+.line-numbers{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgb(153,153,153);
+    color: rgb(213,213,213);
+    padding: 10px 6px;
+    height: 100%;
+    text-align: right;
+}
+
+pre{
+    margin: 0;
+}
+
+
+textarea{
+  height: 44px;
+  border: none;
+  outline: none;
+  resize: none;
+  overflow: auto;
+  margin-left: 24px;
+  width: 90%
+}
+
+#next{
+    background-color: rgb(209,22,6);
+    border: none;
+    border-radius: 4px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: rgb(255,255,255);
+    padding: 5px 10px;
+    position:absolute;
+    right: 15px;
+    bottom: 15px;
+}
+
+#pond {
+position: relative;
+  
+  background-color: #F4A460;
+  width: 50vw;
+  height: 50vw;
+  border-bottom-left-radius: 30px;
+  overflow: hidden;
+  min-width: 300px;
+  min-height: 300px;
+  max-height: 100vh;
+  max-width: 100vh;
+}
+
+#forefront{
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width:95%;
+    height:95%;
+    padding: 2.5%;
+    display: flex;
+}
+
+#background{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width:95%;
+    height:95%;
+    padding: 2.5%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.food-container, .fish-container{
+    width: 20%;
+    height: 20%;
+}
+
+.food, .fish{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.food.green{
+    
+    background-image: url('../image/courseimg/pot_blue.png');
+}
+
+.food.red{
+    background-image: url('../image/courseimg/pot_green.png');
+}
+
+.food.yellow{
+    background-image: url('../image/courseimg/pot_purple.png');
+}
+
+.fish.green{
+   
+    background-image: url('../image/courseimg/blue_cartoon_fish_swim.png');
+    
+}
+
+.fish.red{
+    background-image: url('../image/courseimg/green_cartoon_fish_01_swim.png');
+}
+
+.fish.yellow{
+    background-image: url('../image/courseimg/pink_cartoon_fish_01_swim.png');
+}
+
+#board {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width:95%;
+    height:95%;
+    padding: 2.5%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#next.disabled{
+    opacity: 0.5;
+}
+
+/* #next{
+    position: absolute;
+    right: 1em;
+    bottom: 1em;
+    padding-top: 0.3em;
+} */
+
+#level-counter {
+    position: relative;
+    display: inline-block;
+    height: 30px;
+    margin-top: 0.5rem;
+    font-size: 15px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.arrow.left {
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 4px 0 0 4px;
+}
+
+
+.arrow {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.25em 0.5em 0.2em;
+    cursor: pointer;
+}
+
+#level-indicator, .arrow {
+    float: left;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.left .triangle {
+    border-right: 11px solid rgba(255, 255, 255, 0.7);
+}
+
+.triangle {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-top: 7px solid transparent;
+    border-bottom: 7px solid transparent;
+}
+
+#level-indicator {
+    display: inline-block;
+    width: 160px;
+    line-height: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#level-indicator, .arrow {
+    float: left;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.caret {
+    display: inline-block;
+    margin-left: 2px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.arrow.right {
+    border-left: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 0 4px 4px 0;
+}
+
+.arrow {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.25em 0.5em 0.2em;
+    cursor: pointer;
+}
+
+.right .triangle {
+    border-left: 11px solid rgba(255, 255, 255, 0.7);
+}
+
+#levelsWrapper {
+    display: none;
+    top: 30px;
+    right: 31px;
+    max-width: 160px;
+    padding: 1em 0.5em;
+    margin-top: 12px;
+    z-index: 80;
+}
+
+.tooltip {
+    position: absolute;
+    display: inline-block;
+    max-width: 350px;
+    padding: 1em 1em;
+    background-color: #2c3e50;
+    border-radius: 4px;
+    font-size: 12px;
+    line-height: 1.5;
+    z-index: 60;
+}
+* {
+    box-sizing: border-box;
+}
+#levels {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.level-marker.solved {
+    background-color: #228B24;
+}
+
+.level-marker {
+    /* float: left; */
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin: 2px;
+    line-height: 26px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 2px solid transparent;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.level-marker.current, .level-marker:hover {
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
+#labelReset {
+    margin-top: 1em;
+    text-align: center;
+    cursor: pointer;
+}
+
+a{
+    background-color: #363636;
+    border: 1px solid #303030;
+}
+
+.level{
+ color: aliceblue;
+}
+
+a:hover li{
+    border-color: #ff92f1;
+    color: #ffb7f1;
+}
+
+a.active li{
+    background-color: #ff52f1;
+}
+
