@@ -11,33 +11,42 @@ Project link - https://nice-rock-0c08ab110.3.azurestaticapps.net/index.html
 Project Scrrenshots - 
 Project homepage -
 
-![Screenshot (2330)](https://github.com/Yukta026/frt_FlexboxExplora/assets/143731993/98a300a7-bc82-4ddf-9af4-4cdd0be37ffd)
+
+![Screenshot 2023-09-28 195357](https://github.com/Yukta026/frt_FlexboxExplora/assets/143731993/56fc9d0e-5c81-4ecb-b7cd-835e603f4ac1)
+
 
 This game has five levels and the game covers flex-direction, justify-content, align-items and flex-wrap properties of flexbox.
 
 LEVEL -1 Learn to implement justify-content
 
-![Screenshot (2331)](https://github.com/Yukta026/frt_FlexboxExplora/assets/143731993/ab2c4d8f-7138-402e-ac3e-26912c46c3a1)
+![image](https://github.com/Yukta026/frt_FlexboxExplora/assets/143731993/6e881c8d-8470-43c1-becd-02a6cc0e9b3e)
+
+
 
 Demo of game-
 Just write the code and feed the fish
 
-![Screenshot (2332)](https://github.com/Yukta026/frt_FlexboxExplora/assets/143731993/c42f4264-e5c2-4dbf-ba17-7e28c093507f)
+![image](https://github.com/Yukta026/frt_FlexboxExplora/assets/143731993/28e6170b-7d92-49f1-8933-010ab7210dec)
+
 
 LEVEL -2 Learn to implement align-items
 
 
-![Screenshot (2333)](https://github.com/Yukta026/frt_FlexboxExplora/assets/143731993/2c4ef8f8-4b95-4fa3-b310-d034642b7474)
+![image](https://github.com/Yukta026/frt_FlexboxExplora/assets/143731993/75303882-3b88-4adb-bca8-9230a6a57ece)
+
 
 LEVEL -3 Learn to implement justify-content and align-items together
 
 
-![Screenshot (2334)](https://github.com/Yukta026/frt_FlexboxExplora/assets/143731993/bc9fff9e-f066-4624-ac49-ea725689a00b)
+![image](https://github.com/Yukta026/frt_FlexboxExplora/assets/143731993/d8fd8539-103d-4475-9ccd-5ad922ca24c4)
+
 
 LEVEL -4 Learn to implement flex-direction, justify-content and align-items together
 
-![Screenshot (2335)](https://github.com/Yukta026/frt_FlexboxExplora/assets/143731993/84aaa2cf-78f8-4240-a13f-6cd1897d4617)
+![image](https://github.com/Yukta026/frt_FlexboxExplora/assets/143731993/4e9584ce-206c-447c-9209-39276cf47482)
+
 
 LEVEL -5 Learn to implement flex-direction and flex-wrap together
 
-![Screenshot (2336)](https://github.com/Yukta026/frt_FlexboxExplora/assets/143731993/fcb36e8b-10a5-4d63-9eac-63b1936cd6e7)
+![image](https://github.com/Yukta026/frt_FlexboxExplora/assets/143731993/e71d6bd9-3d56-4a02-a3de-46da1cf9f351)
+
