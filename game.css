@@ -1,8 +1,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@600&family=Source+Code+Pro:wght@200;300;400;500&family=Ubuntu:wght@700&display=swap');
 body{
-    
     background-color: #0077B6;
+    /* background-image: url('../image/courseimg/underwater1.jpg'); */
     color: rgba(255,255,255,0.8);
     margin: 0;
     padding: 0;
@@ -87,7 +87,7 @@ textarea{
 
 #pond {
 position: relative;
-  
+  /* background-color: rgb(31,87,104); */
   background-color: #F4A460;
   width: 50vw;
   height: 50vw;
@@ -137,29 +137,39 @@ position: relative;
 
 .food.green{
     
-    background-image: url('../image/courseimg/potblue.png');
+    background-image: url('potblue.png');
 }
 
 .food.red{
-    background-image: url('../image/courseimg/potgreen.png');
+    background-image: url('potgreen.png');
 }
 
 .food.yellow{
-    background-image: url('../image/courseimg/potpurple.png');
+    background-image: url('potpurple.png');
 }
 
 .fish.green{
    
-    background-image: url('../image/courseimg/bluecartoonfishswim.png');
-    
+    background-image: url('bluecartoonfishswim.png');
+    animation: pulse 2s infinite;
+    background-size: 90px; 
+  
+}
+
+.fish-green{
+    background-image: url('bluecartoonfishswim.png');
 }
 
 .fish.red{
-    background-image: url('../image/courseimg/greencartoonfish01swim.png');
+    background-image: url('greencartoonfish01swim.png');
+    animation: pulse 2s infinite;
+    background-size: 90px; 
 }
 
 .fish.yellow{
-    background-image: url('../image/courseimg/pinkcartoonfish01swim.png');
+    background-image: url('pinkcartoonfish01swim.png');
+    animation: pulse 2s infinite;
+    background-size: 90px; 
 }
 
 #board {
@@ -341,5 +351,25 @@ a:hover li{
 
 a.active li{
     background-color: #ff52f1;
+}
+
+
+.animated .infinite{
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes pulse {
+    0%{
+        transform: scale(0.9);
+    }
+
+    70%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(0.9);
+    }
+    
 }
 
