@@ -137,37 +137,37 @@ position: relative;
 
 .food.green{
     
-    background-image: url('../image/courseimg/pot_blue.png');
+    background-image: url('../image/courseimg/potblue.png');
 }
 
 .food.red{
-    background-image: url('../image/courseimg/pot_green.png');
+    background-image: url('../image/courseimg/potgreen.png');
 }
 
 .food.yellow{
-    background-image: url('../image/courseimg/pot_purple.png');
+    background-image: url('../image/courseimg/potpurple.png');
 }
 
 .fish.green{
    
-    background-image: url('../image/courseimg/blue_cartoon_fish_swim.png');
+    background-image: url('../image/courseimg/bluecartoonfishswim.png');
     animation: pulse 2s infinite;
     background-size: 90px; 
   
 }
 
 .fish-green{
-    background-image: url('../image/courseimg/blue_cartoon_fish_swim.png');
+    background-image: url('../image/courseimg/bluecartoonfishswim.png');
 }
 
 .fish.red{
-    background-image: url('../image/courseimg/green_cartoon_fish_01_swim.png');
+    background-image: url('../image/courseimg/greencartoonfish01swim.png');
     animation: pulse 2s infinite;
     background-size: 90px; 
 }
 
 .fish.yellow{
-    background-image: url('../image/courseimg/pink_cartoon_fish_01_swim.png');
+    background-image: url('../image/courseimg/pinkcartoonfish01swim.png');
     animation: pulse 2s infinite;
     background-size: 90px; 
 }
