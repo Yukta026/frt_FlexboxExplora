@@ -4,13 +4,25 @@ This game has been created to make learning fun. By playing this game, player wi
 
 This game has been developed in HTML, CSS and JS.
 
-IDE used - Visual Studio Code
+Microsoft azure services used - 
+1) Microsoft Azure Portal for creating (frt_FlexboxExplorer) resource group for project
+
+ ![Screenshot (2338)](https://github.com/Yukta026/frt_FlexboxExplora/assets/143731993/cb7ef9fa-4005-4a1e-b661-4f37e827cc65)
+ 
+2) Azure Static Web Apps for deploying (frtFlexboxExplorer) project
+![image](https://github.com/Yukta026/frt_FlexboxExplora/assets/143731993/cfb7f834-9e0a-42ca-a5a0-388984854a63)
+
+On clicking on browse button website can be viewed -
+![Screenshot (2341)](https://github.com/Yukta026/frt_FlexboxExplora/assets/143731993/555cd57b-2525-48b8-846c-1e2c80562881)
+
+
+IDE used - Microsoft Visual Studio Code
 
 Project link - https://nice-rock-0c08ab110.3.azurestaticapps.net/index.html
 
-Project Scrrenshots - 
-Project homepage -
+Project Screenshots - 
 
+Project homepage -
 
 ![Screenshot 2023-09-28 195357](https://github.com/Yukta026/frt_FlexboxExplora/assets/143731993/56fc9d0e-5c81-4ecb-b7cd-835e603f4ac1)
 
